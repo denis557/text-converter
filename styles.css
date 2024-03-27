@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+body {
+  background-color: rgb(8, 6, 6);
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-input {
+  min-width: 45vw;
+  padding: 0.5vw 1.1vw;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+}
+
+#text-input:focus {
+  outline: none;
+}
+
+#select-type {
+  text-align: center;
+  margin: 2.2vh 1vw;
+  width: 15vw;
+  height: 2.3vh;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+}
+
+#submit {
+  border-radius: 6px;
+  width: 9vw;
+  height: 2.7vh;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 2.5vh;
+}
+
+#result {
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+
+.change-theme {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+}
+
+#moon-svg {
+  fill: black;
+}
+
+#sun-svg {
+  fill: white;
+}
+
+#git-svg-white {
+  fill: white;
+}
+
+.git-icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 1.5%;
+  left: 97%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+body.light {
+  background-color: white;
+}
+
+#text-input.light,
+#select-type.light,
+#submit.light {
+  background-color: rgb(8, 6, 6);
+  color: white;
+}
+
+#result.light {
+  color: rgb(8, 6, 6);
+}
